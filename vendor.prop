@@ -6,5 +6,8 @@ ro.vendor.fingerprint.type=side
 ro.vendor.fingerprint.sensor_location=1080|265|250|local:4633128672291735937
 ro.vendor.fingerprint.supports_gestures=true
 
+## Device name
+ro.product.marketname=Galaxy S10e
+
 ## USB
 vendor.usb.product_string=Galaxy S10e
