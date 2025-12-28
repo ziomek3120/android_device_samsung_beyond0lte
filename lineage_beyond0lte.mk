@@ -41,3 +41,6 @@ PRODUCT_MODEL := SM-G970F
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BuildFingerprint=samsung/beyond0ltexx/beyond0:12/SP1A.210812.016/G970FXXSGHWC2:user/release-keys
