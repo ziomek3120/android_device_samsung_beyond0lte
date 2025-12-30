@@ -25,11 +25,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 ## Inherit from beyond0lte device
 $(call inherit-product, device/samsung/beyond0lte/device.mk)
 
-## Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+## Inherit some common Infinity stuff
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
+
+## Infinity flags
+
+# Maintainer Name
+INFINITY_MAINTAINER := "unboxorg"
+
+# Whether Including Google Apps
+WITH_GAPPS := true
 
 ## Device identifier, this must come after all inclusions
-PRODUCT_NAME := lineage_beyond0lte
+PRODUCT_NAME := infinity_beyond0lte
 PRODUCT_DEVICE := beyond0lte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G970F

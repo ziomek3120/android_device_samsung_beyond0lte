@@ -1,0 +1,6 @@
+## Device name
+ro.product.marketname=Galaxy S10e
+
+## Infinity props
+ro.infinity.soc=Exynos 9820
+ro.infinity.camera=12MP + 16MP + 10MP

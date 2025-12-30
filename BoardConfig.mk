@@ -29,3 +29,4 @@ TARGET_KERNEL_CONFIG := exynos9820-beyond0lte_defconfig
 
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
