@@ -11,3 +11,7 @@ ro.product.marketname=Galaxy S10e
 
 ## USB
 vendor.usb.product_string=Galaxy S10e
+
+## Infinity props
+ro.infinity.soc=Exynos 9820
+ro.infinity.camera=12MP + 16MP + 10MP
